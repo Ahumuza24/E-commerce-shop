@@ -1,0 +1,136 @@
+.cartitems {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.cartitems hr {
+    height: 2px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cartitems-format-main {
+    display: grid;
+    grid-template-columns: 0.7fr 2.1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.cartitems-format {
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 1fr 1fr 1.1fr 0.8fr;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.carticon-product-icon {
+    height: 62px;
+    width: auto;
+    object-fit: cover;
+}
+
+.cartitems-remove-icon {
+    width: 20px;
+    cursor: pointer;
+    
+}
+
+.cartitems-quantity {
+    width: 50px;
+    height: 30px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+    text-align: center;
+    line-height: 15px;
+    font-size: 16px;
+    
+}
+
+.cartitems-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cartitems-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.cartitems-total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.cartitems-total button {
+    width: 100%;
+    max-width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.cartitems-promocode {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartitems-promocode p {
+    color: #555;
+}
+
+.cartitems-promobox {
+    display: flex;
+    width: 100%;
+    max-width: 504px;
+    height: 58px;
+    background: #eaeaea;
+    padding: 0 0px;
+    align-items: center;
+}
+
+.cartitems-promobox input {
+    flex: 2;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    height: 100%;
+    padding-left: 5%;
+}
+
+.cartitems-promobox button {
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
